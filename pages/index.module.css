@@ -1,0 +1,37 @@
+.corpo {
+    background-image: url("/back.jpg");
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.left {
+    background-color: blue;
+    flex: 2;
+}
+
+.topLeft {
+    background-color: green;
+    opacity: .5;
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottomLeft {
+    display: flex;
+    justify-content: center;
+}
+
+.rigth {
+    background-color: red;
+    flex: 10;
+}
+
+.topRigth {
+    background-color: purple;
+    padding: .5rem;
+}
